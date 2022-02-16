@@ -1,0 +1,170 @@
+.App {
+  min-height: 100vh;
+  color: white;
+  font-size: calc(4px + 2vmin);
+}
+
+.App-header h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+.App-header img {
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+}
+
+@media (max-width: 1024px) {
+  .App-header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 38px;
+  }
+  .App-header img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 768px) {
+  .App-header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+  }
+  .App-header img {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+  }
+}
+@media (max-width: 420px) {
+  .App-header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 22px;
+  }
+  .App-header img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+  }
+}
+@media (max-width: 284px) {
+  .App-header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+  }
+  .App-header img {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+  }
+}
+.card__div {
+  background-color: #181717;
+}
+
+.circle__div {
+  background-color: white;
+  clip-path: circle();
+  display: flex;
+  width: 30px;
+  height: 30px;
+  color: #1e1f1f;
+  font-weight: bold;
+}
+.circle__div > span {
+  display: flex;
+  margin: auto;
+}
+
+.white_star__div {
+  background: white;
+  width: 21.5px;
+  height: 21.5px;
+  position: relative;
+  text-align: center;
+}
+.white_star__div:before,
+.white_star__div:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 21.5px;
+  width: 21.5px;
+  background: white;
+}
+.white_star__div:before {
+  transform: rotate(30deg);
+}
+.white_star__div:after {
+  transform: rotate(60deg);
+}
+.white_star__div > span {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  color: black;
+  font-weight: bold;
+  margin-left: 6px;
+  margin-top: -2px;
+}
+
+.yellow_star__div {
+  background: yellow;
+  width: 21.5px;
+  height: 21.5px;
+  position: relative;
+  text-align: center;
+}
+.yellow_star__div:before,
+.yellow_star__div:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 21.5px;
+  width: 21.5px;
+  background: yellow;
+}
+.yellow_star__div:before {
+  transform: rotate(30deg);
+}
+.yellow_star__div:after {
+  transform: rotate(60deg);
+}
+.yellow_star__div > span {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  color: black;
+  font-weight: bold;
+  margin-left: 6px;
+  margin-top: -2px;
+}
+
+.pink__btn {
+  background-color: #b4508b;
+}
+
+.link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.search__txt {
+  margin-bottom: 4vmin;
+  margin-top: 2vmin;
+  width: 75vmin;
+  height: 7vmin;
+  color: white;
+  background-color: #1e1f1f;
+  outline: none;
+  border: none;
+  padding: 1vmin;
+  border-radius: 1vmin;
+}
